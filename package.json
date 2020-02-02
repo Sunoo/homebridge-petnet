@@ -1,0 +1,28 @@
+{
+  "name": "homebridge-petnet",
+  "version": "0.0.1",
+  "description": "Petnet Plugin for Homebridge",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Sunoo/homebridge-petnet.git"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "petnet",
+    "smartfeeder"
+  ],
+  "author": "David Maher",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/Sunoo/homebridge-petnet/issues"
+  },
+  "homepage": "https://github.com/Sunoo/homebridge-petnet#readme",
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.3.0"
+  },
+  "dependencies": {
+    "node-fetch": ">=2.6.0",
+    "eventsource": ">=1.0.7"
+  }
+}
